@@ -1,0 +1,137 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  color: #6b4718;
+  margin: 40px 0 10px;
+  padding-top: 70px;
+  padding-bottom: 10px;
+}
+
+/* Header styles */
+header {
+  background-color: #343a40;
+  color: white;
+  padding: 15px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* Main styles */
+main {
+  margin: 30px auto;
+  max-width: 800px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+/* Cart items */
+#cart-items ul {
+  list-style: none;
+  padding: 0;
+}
+
+#cart-items li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  flex-wrap: wrap;
+}
+
+#cart-items li:last-child {
+  border-bottom: none;
+}
+
+#cart-items img {
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+#cart-items span {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+#cart-items form {
+  display: inline;
+}
+
+#cart-items form {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.cart-buttons {
+  background-color: #543a14;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart-buttons:hover {
+  background-color: #f0bb78;
+}
+
+.cart-buttons.remove {
+  background-color: #b6612c;
+}
+
+.cart-buttons.remove:hover {
+  background-color: #e4b99d;
+}
+
+#cart-items li > div {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adds spacing between the buttons */
+}
+
+/* Total price */
+h3 {
+  text-align: right;
+  margin-top: 20px;
+  color: #bc7914;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #343a40;
+  color: white;
+  position: relative;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 0;
+}

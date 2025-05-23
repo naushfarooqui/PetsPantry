@@ -1,0 +1,165 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbarnew {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgb(255, 240, 220);
+    box-shadow: 0 2px 5px rgba(84, 58, 20, 0.5);
+    z-index: 1000;
+}
+
+.container {
+    margin-top: 70px;
+    padding: 20px;
+}
+
+/* Logo */
+.logonew {
+    display: flex;
+    align-items: center;
+}
+
+.logonew img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logonew span {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: rgb(84, 58, 20);
+}
+
+/* Navigation Links */
+.nav-linksnew {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-linksnew a {
+    text-decoration: none;
+    color: rgb(84, 58, 20);
+    font-size: 1.5rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+
+.nav-linksnew a:hover,
+.nav-linksnew a.active {
+    color: rgb(240, 187, 120);
+    font-size: 1.1rem;
+    text-decoration: underline;
+}
+
+/* Dropdown */
+.dropdownnew {
+    position: relative;
+}
+
+.dropdown-menunew {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgb(255, 240, 220);
+    border: 1px solid rgba(84, 58, 20, 0.2);
+    box-shadow: 0 4px 8px rgba(84, 58, 20, 0.2);
+    z-index: 1000;
+}
+
+.dropdown-menunew a {
+    display: block;
+    padding: 10px 15px;
+    color: rgb(84, 58, 20);
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.dropdown-menunew a:hover {
+    background-color: rgb(240, 187, 120);
+    color: white;
+}
+
+.dropdownnew:hover .dropdown-menunew {
+    display: block;
+}
+
+/* Account & Cart */
+.account-linksnew button {
+    padding: 5px 15px;
+    border: none;
+    background-color: rgb(240, 187, 120);
+    color: rgb(84, 58, 20);
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.account-linksnew button:hover {
+    background-color: rgb(249, 216, 172);
+}
+
+.cartnew {
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: rgb(84, 58, 20);
+    font-size: 1.2rem;
+}
+
+.cart-countnew {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2px 5px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbarnew {
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .nav-linksnew {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .account-linksnew {
+        margin-top: 10px;
+    }
+
+    .logonew img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .logonew span {
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,1659 @@
+
+                                                  /* General Styling */
+                                                  body {
+                                                    margin: 50;
+                                                    font-family: Arial, sans-serif;
+                                                  }
+
+                                                  /* Splash Screen Styling */
+                                                  #splash {
+                                                    position: fixed;
+                                                    top: 0;
+                                                    left: 0;
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    background: radial-gradient(rgb(240, 187, 120), rgb(84, 58, 20));
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    z-index: 1000;
+                                                  }
+
+                                                  #longCat {
+                                                    position: absolute;
+                                                    top: 50%;
+                                                    left: 50%;
+                                                    transform: translate(-50%, -50%);
+                                                    max-height: 100%;
+                                                    max-width: 100%;
+                                                  }
+
+.button-link {
+  text-decoration: none;
+  color: inherit; /* Inherits button text color */
+  display: inline-block;
+  width: 100%; /* Makes link cover the entire button */
+  height: 100%;
+}
+
+heading{
+  background-color: rgb(255, 240, 220);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+  }
+  /* category */
+  .container__bg {
+   margin: 1%;
+    background: rgb(240, 187, 120);
+  }
+  
+  /* color -#F85A40 */
+  a {
+    color: rgb(240, 187, 120);
+  }
+  .row {
+    display: flex;
+  }
+  /* why choos us font */
+  .lightblack {
+    color: rgb(72, 44, 9);
+  }
+  
+  /* main */
+  .blackish {
+    color: rgb(255, 255, 255);
+  }
+  
+  .column {
+    display: block;
+    flex-direction: column;
+  }
+  
+  .redish {
+    color: #eb4545;
+  }
+  /* main font */
+  .white {
+    color:  #ffff;
+  }
+   
+  .btn {
+    padding: 0.85em 2em;
+    border-radius: 5px;
+    border: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 0.95rem;
+    cursor: pointer;
+  }
+  
+  #one {
+    min-height:100vh;
+    background-image: linear-gradient(75deg, rgb(84, 58, 20) ,transparent),
+      url("photo/pets.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+   
+  .hamburger {
+    display: flex;
+    color: white;
+    gap: 20px;
+    align-items: center;
+    margin-right: 10px;
+  }
+  .hamburger .fa-bars {
+    padding: 0.5em;
+    background: #A7FFE4 ;
+    color: #fff;
+    border-radius: 3px;
+  }
+  .content {
+    padding-left: 5%;
+  }
+  
+  .text-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  
+    padding: 11rem 0;
+  }
+  .text-content > h1 {
+    width: 440px;
+    font-size: 38px;
+    font-weight: 300;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 20px;
+    line-height: 55px;
+  }
+  
+  .text-content > h4 {
+    font-size: 1.15rem;
+    letter-spacing: 0.35px;
+    font-weight: lighter;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 55px;
+  }
+  .two-button {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .w-btn {
+    color: rgb(84, 58, 20);
+  }
+  .w-btn:hover {
+    background: transparent;
+    color: white;
+    border: 0.55px solid white;
+    transition: 0.55s;
+  }
+  .t-btn {
+    background: transparent;
+    border: 0.55px solid white;
+    color: white;
+  }
+  .t-btn:hover {
+    color: black;
+    background: white;
+    border: none;
+    transition: 0.55s;
+  }
+    
+  #one-half {
+    padding: 7% 3% 7% 3%;
+    font-family: "Raleway", sans-serif;
+  }
+  #one-half span > img {
+    width: 100%;
+  }
+  .half__text > h1 {
+    padding: 20px 0px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  .half__text p {
+    line-height: 25px;
+    font-size: 17px;
+    color: rgb(84, 58, 20);
+  }
+  
+  .half__boxes {
+    display: flex;
+    gap: 40px;
+  }
+  .box > h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    padding: 0px 0px 15px 0px;
+  }
+  .box > p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #0a0000;
+  }
+
+  
+  .box span > i {
+    color: rgb(84, 58, 20);
+    font-size: 35px;
+    padding: 25px 0px 10px 0px;
+  }
+  
+  .heading {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+  
+    font-size: 1.75rem;
+  }
+
+  
+  .black {
+    color: rgb(70, 193, 245);
+  }
+  
+
+  .info span > img {
+    width: 100%;
+  }
+  
+  .container {
+    padding: 10%;
+  }
+  
+  .info {
+    text-align: start;
+    line-height: 30px;
+    letter-spacing: 1px;
+  
+    box-shadow: 0 1px 1px 0 rgb(84, 58, 20);
+  
+    font-family: "Raleway", sans-serif;
+  
+    border: 0.25px solid ;
+  }
+  
+  .info__text h1 {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  .info__text p {
+    padding: 10px;
+    color: #707070;
+  }
+  
+  
+  .info__text h5 {
+    color: rgb(84, 58, 20);
+    padding: 10px;
+  }
+  
+  .info:hover {
+    box-shadow: 0 30px 30px rgb(84, 58, 20);
+  }
+  
+  .info span > img {
+    width: 100%;
+  }
+  
+  .info__text {
+    padding: 10px;
+  }
+  
+  .info__text > p {
+    line-height: 20px;
+  }
+  
+  .info {
+    margin-bottom: 30px;
+  }
+  
+
+  #four {
+    padding: 15px;
+  }
+  #four article h1 {
+    font-size: 30px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+  }
+ 
+
+  #four article p {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.4px;
+    color: rgb(255, 240, 220);
+    font-family: "Raleway", sans-serif;
+    text-align: justify;
+  }
+  
+  .article__icon {
+    display: flex;
+    gap: 70px;
+    margin: 40px 0px;
+  }
+ 
+  .customer__info span > i {
+    color: rgb(84, 58, 20);
+  
+    font-size: 25px;
+  }
+  
+  .customer__info span {
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .some__info {
+    display: flex;
+  
+    gap: 30px;
+  }
+  .some__info img {
+    border-radius: 50%;
+  }
+  
+  .some__info p {
+    color: rgb(84, 58, 20);
+    font-size: 17px;
+    letter-spacing: 0.4px;
+    line-height: 24px;
+  }
+  .four__text > h1 {
+    font-size: 70px;
+    font-weight: 300;
+    color: rgb(240, 187, 120);
+    height: 30px;
+  }
+  
+  .four__text > p {
+    font-size: 15.55px;
+  }
+  .four__text > h4 {
+    margin: 20px 0px;
+    color: rgb(240, 187, 120);
+  }
+  
+  #five {
+    padding: 0px 20px 0px 20px;
+  }
+  .dog__image {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .dog__box {
+    padding: 20px 0px;
+  }
+  
+  .dog__box span > i {
+    font-size: 22px;
+    padding: 10px 0px;
+    color: rgb(240, 187, 120);
+  }
+  
+  .dog__box h4 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 0px;
+  }
+  
+  .dog__box p {
+    color: #b71313;
+  }
+  #six {
+    background: url(https://raw.githubusercontent.com/Nis-chal/dog_website_clone/main/images/bg.jpg);
+    background-position: top;
+    background-attachment: fixed;
+    color: rgb(240, 187, 120);
+    padding: 80px 3%;
+  }
+  
+  #six h1 {
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: 1px;
+    margin: 20px 0 20px 0;
+  }
+
+  #seven .info h5 {
+    color: rgb(19, 16, 16);
+  }
+  
+  #seven pre {
+    color: #1a2c79;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  #seven {
+    padding-top: 50px;
+  }
+
+          #eight {
+            background: rgb(240, 187, 120);
+            color: #fff;
+            padding: 90px 3%;
+          }
+ 
+  .dog__care span {
+    font-size: 27px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+  }
+  
+  .dog__care span > i {
+    color: rgb(84, 58, 20);
+    margin-right: 7px;
+    font-size: 30px;
+  }
+  .dog__care p {
+    width: 90%;
+    color: #f4f4f4ce;
+    line-height: 29px;
+    margin: 20px 0px;
+  }
+  .categories {
+    display: flex;
+    gap: 90px;
+  }
+  .dog__categories {
+    margin-bottom: 20px;
+  }
+  .dog__categories > h3 {
+    margin: 0px 0px 30px 0px;
+  }
+
+  .categories ul li {
+    line-height: 30px;
+    font-size: 1rem;
+    color: rgb(19, 16, 16);
+  }
+  
+  .newsletter > h3 + h3 {
+    margin: 20px 0px;
+    color: #005bb5;
+  }
+  .newsletter span {
+    display: flex;
+    padding-bottom: 20px;
+  }
+  
+  .newsletter span > input {
+    padding: 15px 180px 15px 0px;
+  }
+  
+  .newsletter span > button {
+    padding: 15px 50px;
+    background: rgb(189, 159, 114);
+    color: rgb(255, 116, 177);
+    font-size: 20px;
+  }
+  .newsletter {
+    margin-bottom: 55px;
+  }
+
+  .newsletter a {
+    color: rgb(84, 58, 20); /* Change this to your preferred color */
+    text-decoration: none; /* Optional: removes the underline */
+    font-size: 16px; /* Ensure the text is visible */
+}
+
+.newsletter a:hover {
+    color: rgb(19, 16, 16); /* Change this to a hover color if needed */
+    text-decoration: underline; /* Optional: adds underline on hover */
+}
+
+  .footer__container {
+    border-bottom: 0.15px solid #707070;
+  }
+  
+  .copyright > p {
+    margin: 20px 0px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 27px;
+  }
+  
+  .copyright p > strong {
+    color: #f85a40;
+  }
+  .copyright p > strong:hover {
+    color: #fff;
+    border-bottom: 0.25px solid #fff;
+    transition: 1.75s;
+  }
+  
+  .share {
+    justify-content: center;
+    display: flex;
+  }
+  /* dots */
+        .share div {
+          border-radius: 25px;
+          background: #222222;
+          width: 35px;
+          height: 35px;
+          margin-right: 10px;
+          align-items: center;
+          display: flex;
+          justify-content: center;
+        }
+        .share div:hover {
+          background: #fafafa;
+          color: #f85a40;
+          transition: 0.75s;
+          cursor:pointer;
+        }
+  .dark-mode {
+    /* filter: invert(1) hue-rotate(180deg); */
+    background: #990f0f;
+    color: white;
+  }
+
+  .first__row span > img {
+    width: 100%;
+    height: auto;
+    max-width: 275px;
+    position: relative;
+    cursor: pointer;
+  }
+  .first__row span,
+  .second__row span {
+    position: relative;
+  }
+
+  .first__row span::after,
+  .second__row span::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 30%;
+    height: 100%;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.4),
+      transparent
+    );
+    transition: 0.5s;
+  }
+  
+  .first__row span:hover::after,
+  .second__row span:hover::after {
+    content: "";
+    position: absolute;
+    left: 100%;
+    display: inline;
+  }
+  .gallery__container {
+    max-width: 1170px;
+    font-size: 0;
+    margin: 0 auto;
+    padding: 40px 3% 0px 3%;
+  }
+  .first__column {
+    width: 25%;
+    font-size: 0;
+  }
+  
+  .first__column span > img {
+    width: 100%;
+    height: auto;
+    max-width: 275px;
+  }
+  
+  .big__image {
+    width: 50%;
+  }
+  .second__row span > img {
+    width: 100%;
+    height: auto;
+    max-width: 540px;
+  }
+  
+  @media screen and (min-width: 995px) {
+     
+    .content {
+      padding-left: 10%;
+    }
+  
+    .text-content > h1 {
+      width: 540px;
+      font-size: 50px;
+      font-weight: 300;
+      font-family: "Raleway", sans-serif;
+      margin-bottom: 20px;
+      line-height: 55px;
+    }
+    .black {
+      color: black;
+    }
+  
+    .black2 {
+      color: rgb(84, 58, 20);
+    }
+  
+    /* 
+    =====
+    two
+    ==== 
+    */
+  .two{
+    padding: 10;
+  }
+
+    .heading {
+      width: 50%;
+      margin: 0 auto;
+      font-size: 20px;
+    }
+  
+    .heading > h1 {
+      line-height: 45px;
+    }
+  
+    .heading > p {
+      line-height: 32px;
+    }
+  
+    .container {
+      flex-wrap: wrap;
+      display: flex;
+  
+      justify-content: space-evenly;
+  
+      padding: 5%;
+    }
+  
+    .info {
+      text-align: start;
+      line-height: 30px;
+      letter-spacing: 1px;
+  
+      width: 28%;
+      box-shadow: 0 1px 1px 0 rgba(16, 68, 226, 0.2);
+  
+      font-family: "Raleway", sans-serif;
+    }
+  
+
+    #one-half {
+      display: flex;
+  
+      justify-content: center;
+    }
+    .half-content {
+      width: 40%;
+    }
+  
+    .half__boxes {
+      width: 100%;
+    }
+    #one-half span > img {
+      width: 90%;
+      margin-left: auto;
+    }
+  
+    .half__text > h1 {
+      font-size: 37px;
+      font-weight: 600;
+    }
+  
+    /*
+     ======== 
+     four four four 
+     ========*/
+                          #four {
+                            display: flex;
+                            gap: 90px;
+                            padding: 10%;
+                          }
+  
+    /* five five five */
+                          #five {
+                            display: flex;
+                            padding: 10%;
+                            align-items: center;
+                          }
+                        
+                          .dog__image {
+                            min-width: 200px;
+                            height: 400px;
+                          }
+  
+    /* eight eight eight */
+                      
+                        .footer__container {
+                          display: flex;
+                        }
+                        .newsletter,
+                        .dog__categories {
+                          width: 30%;
+                        }
+                        .dog__care {
+                          width: 30%;
+                        }
+                      
+     /* eight eight */
+                        .newsletter span > button {
+                          padding: 10px 30px;
+                        }
+                      
+                        #eight {
+                          padding: 90px 10%;
+                        }
+                      
+  }
+  
+                          @media screen and (min-width: 575px) {
+                            /* five five five */
+                            .dog__boxes {
+                              display: flex;
+                              padding: 0 10% 0 10%;
+                            }
+  
+    /* six six six  */
+  
+                                #six h1 {
+                                  max-width: 700px;
+                                  font-size: 40px;
+                                }
+                                #six {
+                                  padding-left: 10%;
+                                }
+  
+    /* eight eight eight */
+  
+                            .copyright > p {
+                              margin-top: 20px;
+                              text-align: start;
+                            }
+                            .copyright {
+                              display: flex;
+                              align-items: center;
+                              justify-content: space-between;
+                            }
+  }
+     
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* cat starts */
+                                          :root {
+                                            --cat-height: 152px;
+                                            --cat-width: 238px;
+                                            --steps: 8;
+                                        }
+                                        .cat-background {
+                                            height: fit-content;
+                                            width: 100%;
+                                            margin: 20px 0;
+                                            background-color: #fff;
+                                            overflow-x: hidden;
+                                        }
+                                        .cat-container-running {
+                                            animation: cat-running 8s linear infinite normal;
+                                            height: fit-content;
+                                            width: fit-content;
+                                        }
+                                        @keyframes cat-running {
+                                            from {
+                                                transform: translate(calc(100vw + var(--cat-width)), 0);
+                                            }
+                                            to {
+                                                transform: translate(calc(var(--cat-width) * (-1)), 0);
+                                            }
+                                        }
+                                        .sprite-cat-vertical {
+                                            height: calc(var(--cat-height) - 10px); /*here we also need to solve the problem of a badly cut image*/
+                                            width: var(--cat-width); 
+
+                                            background: url(https://raw.githubusercontent.com/6Fein/images/main/code-pen-running-cat-animation/cat-vertical.jpg) 0 0/cover no-repeat #fff;
+
+                                            animation: sprite-cat-vertical calc(var(--steps) * 0.07s)/*0.56s*/ steps(var(--steps)) infinite normal;
+                                        }
+                                        @keyframes sprite-cat-vertical {
+                                            from {
+                                                background-position: 0 0;
+                                            }
+                                            to {
+                                                background-position: 0 calc(var(--cat-height) * (-1) * var(--steps)); /*background-position: 0 -1216px;*/
+                                            }
+                                        }
+                                        .heart-icon {
+                                            background-color: transparent;
+                                            height: 100%;
+                                            width: 100%;
+                                        }
+                                        .cat-container-running:hover,
+                                        .sprite-cat-vertical:hover {
+                                            animation-play-state: paused;
+                                        }
+                                        .heart-icon:hover {
+                                            background: url(https://raw.githubusercontent.com/6Fein/images/main/code-pen-running-cat-animation/heart-icon.png) 100px 10px/20px no-repeat transparent;
+                                        }
+  /*cat ends  */
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+/*  
+rgb(255, 240, 220)
+rgb(240, 187, 120)
+rgb(84, 58, 20)
+rgb(19, 16, 16) */
+
+
+
+
+
+
+
+
+
+
+
+  /* sliding dog starts */
+                                            :root {
+                                              --dog-color: rgb(84, 58, 20);
+                                              --dog-accent-color: rgb(240, 187, 120);
+                                              
+                                              --slide-color: rgb(240, 187, 120);
+                                              --ladder-color: rgb(84, 58, 20);
+                                              --heart-color: rgb(84, 58, 20);
+                                            }
+                                            
+                                            body{
+                                              background: rgb(84, 58, 20);
+                                            }
+                                            
+                                            .box-canvas{
+                                              position: relative;
+                                              margin: auto;
+                                              display: block;
+                                              margin-top: 8%;
+                                              margin-bottom: 8%;
+                                              width: 600px;
+                                              height:600px;
+                                            }
+                                            
+                                            /* Convenience wrapper for easy positioning */
+                                            .dog {
+                                              position: absolute;
+                                              right: 170px;
+                                              top: 70px;
+                                              width: 58px;
+                                              height: 75px;
+                                              animation: dogSlide 2s infinite ease-in-out;
+                                            }
+                                            
+                                            @keyframes dogSlide {
+                                              10% {
+                                                transform: translateX(-25px);
+                                              }
+                                              
+                                              70% {
+                                                transform: rotate(-20deg) translate(-185px, 50px);
+                                              }
+                                              
+                                              90% {
+                                                transform: translate(-205px, 125px);
+                                              }
+                                              
+                                              100% {
+                                                transform: translate(-205px, 125px);
+                                              }
+                                            }
+                                            
+                                            .heart {
+                                              opacity: 0;
+                                              position: absolute;
+                                              background: var(--heart-color);
+                                              width: 15px;
+                                              height: 15px;
+                                              border-radius: 50%;
+                                              top: -50px;
+                                              left: 60%;
+                                              transform: translateX(-60%);
+                                              animation: heartAppear 2s infinite ease-in-out;
+                                            }
+                                            
+                                            .heart::before {
+                                              content: '';
+                                              position: absolute;
+                                              left: 10px;
+                                              background: var(--heart-color);
+                                              width: 15px;
+                                              height: 15px;
+                                              border-radius: 50%;
+                                            }
+                                            
+                                            .heart::after {
+                                              content: '';
+                                              position: absolute;
+                                              top: 10px;
+                                              left: 0;
+                                              background: var(--heart-color);
+                                              width: 25px;
+                                              height: 10px;
+                                              clip-path: polygon(50% 100%, 0 0, 100% 0);
+                                            }
+                                            
+                                            @keyframes heartAppear {
+                                              0% {
+                                                opacity: 0;
+                                              }
+                                              
+                                              50% {
+                                                opacity: 0;
+                                              }
+                                              
+                                              70% {
+                                                opacity: 1;
+                                              }
+                                              
+                                              90% {
+                                                opacity: 1;
+                                              }
+                                              
+                                              100% {
+                                                opacity: 0;
+                                              }
+                                            }
+                                            
+                                            .body {
+                                              position: absolute;
+                                              left: 13px;
+                                              width: 44px;
+                                              height: 75px;
+                                              border-radius: 25% 10% 20% 20%;
+                                              background: var(--dog-color);
+                                            }
+                                            
+                                            .body::before{
+                                              content: '';
+                                              position: absolute;
+                                              top: 5px;
+                                              left: -3px;
+                                              background: var(--dog-color);
+                                              border-radius: 20%;
+                                              width: 20px;
+                                              height: 30px;
+                                              transform: rotate(45deg);
+                                            }
+                                            
+                                            /* Snout section */
+                                            .body::after {
+                                              content: '';
+                                              position: absolute;
+                                              background: var(--dog-color);
+                                              width: 25px;
+                                              height: 15px;
+                                              top: 20px;
+                                              left: -12px;
+                                              border-radius: 20% 20% 50% 20%;
+                                              border-bottom: 2px solid var(--dog-accent-color);
+                                              animation: dogSmile 2s infinite ease-in-out;
+                                            }
+                                            
+                                            @keyframes dogSmile {
+                                              0% {
+                                                border-radius: 20% 20% 20% 20%;
+                                                border-bottom: none;
+                                              }
+                                              
+                                              70% {
+                                                border-radius: 20% 20% 50% 20%;
+                                                border-bottom: 2px solid var(--dog-accent-color);
+                                              }
+                                            }
+                                            
+                                            .nose {
+                                              position: absolute;
+                                              background-color: var(--dog-accent-color);
+                                              width: 8px;
+                                              height: 5px;
+                                              border-radius: 30%;
+                                              top: 20px;
+                                            }
+                                            
+                                            .ear {
+                                              position: absolute;
+                                              left: 35px;
+                                              width: 20px;
+                                              height: 30px;
+                                              background: var(--dog-accent-color);
+                                              border-radius: 0 0 30% 30%;
+                                            }
+                                            
+                                            .eye {
+                                              position: absolute;
+                                              left: 22px;
+                                              top: 10px;
+                                              background: var(--dog-accent-color);
+                                              width: 5px;
+                                              height: 5px;
+                                              border-radius: 50%;
+                                            }
+                                            
+                                            .tail {
+                                              position: absolute;
+                                              bottom: 0;
+                                              right: -8px;
+                                              width: 10px;
+                                              height: 55px;
+                                              background: var(--dog-color);
+                                              transform: rotate(25deg);
+                                            
+                                            }
+                                            
+                                            .tail::before {
+                                              content: '';
+                                              position: absolute;
+                                              top: -15px;
+                                              width: 15px;
+                                              height: 25px;
+                                              background: var(--dog-color);
+                                              clip-path: polygon(12% 0, 0% 100%, 100% 100%);
+                                            }
+                                            
+                                            .tail::after {
+                                              content: '';
+                                              position: absolute;
+                                              top: 5px;
+                                              left: 5px;
+                                              width: 12px;
+                                              height: 25px;
+                                              background: var(--dog-color);
+                                              clip-path: polygon(12% 0, 0% 100%, 100% 100%);
+                                            }
+                                            
+                                            /* Convenience wrapper for positioning */
+                                            .slide {
+                                              position: absolute;
+                                              width: 270px;
+                                              height: 200px;
+                                              left: 50%;
+                                              transform: translateX(-50%);
+                                              top: 100px;
+                                            }
+                                            
+                                            .slide-main {
+                                              position: absolute;
+                                              bottom: 64px;
+                                              left: 53px;
+                                              width: 200px;
+                                              height: 50px;
+                                              background: var(--slide-color);
+                                              transform: rotate(-45deg);
+                                            }
+                                            
+                                            .slide-end {
+                                              position: absolute;
+                                              height: 50px;
+                                              width: 100px;
+                                              background: var(--slide-color);
+                                              bottom: 0;
+                                              border-radius: 50% 0 0 0;
+                                            }
+                                            
+                                            .slide-start {
+                                              position: absolute;
+                                              height: 50px;
+                                              top: 23px;
+                                              width: 63px;
+                                              background: var(--slide-color);
+                                              right: 0px;
+                                            }
+                                            
+                                            /* Ladder */
+                                            .slide-start::after {
+                                              content: '';
+                                              position: absolute;
+                                              height: 177px;
+                                              width: 10px;
+                                              background: var(--ladder-color);
+                                              right: 0;
+                                            }
+  /* sliding dog ends */
+
+
+
+
+
+
+
+
+
+  /* CAT STARTS */
+                                            :root{
+                                              font-family: monospace;
+                                              --primary-col: #00fff4;
+                                              --secondary-col: rgb(84, 58, 20);
+                                              --bg-col: rgb(255, 240, 220);
+                                            }
+                                            body{
+                                              color: var(--secondary-col);
+                                              background-color: var(--bg-col);
+                                            }
+                                            
+                                            .uwu{
+                                              margin-top: 2rem;
+                                              font-size: 2.25rem;
+                                              text-align: center
+                                            }
+                                            
+                                            .nkmm {
+                                              font-size: 64px;
+                                              text-align: center
+                                            }.nkmm > hr {
+                                              width: 80%;
+                                              margin:-1.5rem auto;
+                                              height: 5px;
+                                              background-color: var(--secondary-col);
+                                              border: none
+                                            }.nkmm > span {
+                                              position: relative
+                                            }.nkmm span:after {
+                                              line-height: 0;
+                                              content:"\25B2";
+                                              position: absolute;
+                                              color: var(--bg-col);
+                                              font-size: 75%;
+                                              top:60%;left:12.5%
+                                            }
+  /* CAT ENDS */
+
+
+
+
+
+
+  /* cat tounge starts */
+   
+
+                                                      .canvas {
+                                                        position: relative;
+                                                        display: flex;
+                                                        justify-content: center;
+                                                        align-items: center;
+                                                        width: 100%;
+                                                        height: 100vh;
+                                                        transform: scale(0.25
+                                                        ); /* Scale the entire canvas */
+                                                        transform-origin :bottom left; /* Keeps the scale anchored to the top-left corner */
+                                                        margin-right: 60%; /* Shift the whole canvas to the right */
+                                                        /* You can adjust the percentage of margin-left for how much right shift you want */
+                                                      }
+
+                                                      .circle {
+                                                        position: relative;
+                                                        display: flex;
+                                                        justify-content: center;
+                                                        align-content: center;
+                                                        width: 80vmin;
+                                                        height: 80vmin;
+                                                        border-radius: 50%;
+                                                        background: #00c3ff;
+                                                      }
+
+
+                                                      /* FACE */ 
+
+                                                      .face {
+                                                        position: absolute;
+                                                        top: 25vmin;
+                                                        left: 22vmin;
+                                                        width: 36vmin;
+                                                        height: 40vmin;
+                                                        background: whitesmoke;
+                                                        border-radius: 12vmin 12vmin 12vmin 12vmin;
+                                                      }
+
+                                                      .grayfaceleft {
+                                                        position: absolute;
+                                                        top: 0;
+                                                        left: 0;
+                                                        width: 16vmin;
+                                                        height: 29.6vmin;
+                                                        background: #282828;
+                                                        border-radius: 25vmin 0 40vmin 0;
+                                                      }
+
+                                                      .grayfaceright {
+                                                        position: absolute;
+                                                        top: 0;
+                                                        right: 0;
+                                                        width: 16vmin;
+                                                        height: 29.6vmin;
+                                                        background: #282828;
+                                                        border-radius: 0 25vmin 0 40vmin;
+                                                      }
+
+                                                      .grayfacebottom {
+                                                        position: absolute;
+                                                        left: 0;
+                                                        bottom: 0;
+                                                        width: 36vmin;
+                                                        height: 15vmin;
+                                                        background: #282828;
+                                                        border-radius: 10vmin 10vmin 24vmin 24vmin;
+                                                      }
+
+                                                      .whiteface {
+                                                        position: absolute;
+                                                        top: 22vmin;
+                                                        left: 9vmin;
+                                                        width: 18vmin;
+                                                        height: 18vmin;
+                                                        background: whitesmoke;
+                                                        border-radius: 0 15vmin 25vmin 15vmin;
+                                                        transform: rotate(45deg);
+                                                      }
+
+                                                      .whiteeyes {
+                                                        position: absolute;
+                                                        top: 16.5vmin;
+                                                        left: 3.5vmin;
+                                                        width: 6vmin;
+                                                        height: 6vmin;
+                                                        background: whitesmoke;
+                                                        border-radius: 50%;
+                                                        box-shadow: 22vmin 0 whitesmoke;
+                                                      }
+
+                                                      .eyes {
+                                                        position: absolute;
+                                                        top: 16vmin;
+                                                        left: 4vmin;
+                                                        width: 6vmin;
+                                                        height: 6vmin;
+                                                        background: #000;
+                                                        border-radius: 50%;
+                                                        box-shadow: 22vmin 0 #000;
+                                                      }
+
+                                                      .eyeglow {
+                                                        position: absolute;
+                                                        top: 17vmin;
+                                                        left: 6.5vmin;
+                                                        width: 2vmin;
+                                                        height: 2vmin;
+                                                        background: whitesmoke;
+                                                        border-radius: 50%;
+                                                        box-shadow: 22vmin 0 whitesmoke;
+                                                      }
+
+                                                      .nose {
+                                                        position: absolute;
+                                                        top: 25vmin;
+                                                        left: 16vmin;
+                                                        width: 4vmin;
+                                                        height: 4vmin;
+                                                        background: black;
+                                                        border-radius: 1vmin 4vmin 1vmin 0.5vmin;
+                                                        transform: rotate(-45deg);
+                                                      }
+
+                                                      .mouthleft {
+                                                        position: absolute;
+                                                        top: 27vmin;
+                                                        left: 9.5vmin;
+                                                        width: 8vmin;
+                                                        height: 8vmin;
+                                                        border-radius: 50%;
+                                                        background: whitesmoke;
+                                                        border-bottom: 1vmin solid #000;
+                                                        border-right: 1vmin solid #000;
+                                                        transform: rotate(25deg);
+                                                      }
+
+                                                      .mouthright {
+                                                        position: absolute;
+                                                        top: 27vmin;
+                                                        right: 9.5vmin;
+                                                        width: 8vmin;
+                                                        height: 8vmin;
+                                                        border-radius: 50%;
+                                                        background: whitesmoke;
+                                                        border-bottom: 1vmin solid #000;
+                                                        border-left: 1vmin solid #000;
+                                                        transform: rotate(-25deg);
+                                                      }
+
+                                                      .mouthbottom {
+                                                        position: absolute;
+                                                        top: 31.5vmin;
+                                                        left: 14vmin;
+                                                        width: 8vmin;
+                                                        height: 8vmin;
+                                                        background: black;
+                                                        border-radius: 0vmin 8vmin 0vmin 0vmin;
+                                                        transform: rotate(135deg);
+                                                      }
+
+
+                                                      /* TONGUE */ 
+
+                                                      .tongue {
+                                                        position: absolute;
+                                                        top: 27.5vmin;
+                                                        left: 15vmin;
+                                                        width: 6vmin;
+                                                        height: 11vmin;
+                                                        background: #e2456f;
+                                                        border-radius: 0 0 5vmin 5vmin;
+                                                        animation: move 1s infinite;
+                                                      }
+
+                                                      .tongueline {
+                                                        position: absolute;
+                                                        top: 0;
+                                                        left: 2.75vmin;
+                                                        width: .5vmin;
+                                                        height: 9vmin;
+                                                        background: #972744;
+                                                      }
+
+                                                      @keyframes move {
+                                                        0% {transform: translate(0%, 0%);}
+                                                        50% {transform: translate(0%, 44%);}
+                                                        100% {transform: translate(0%, 0%);}
+                                                      }
+
+
+                                                      /* LEFT EAR */ 
+
+                                                      .earleft {
+                                                        position: absolute;
+                                                        top: 18.5vmin;
+                                                        left: 14.5vmin;
+                                                        width: 20vmin;
+                                                        height: 20vmin;
+                                                        background: #282828;
+                                                        border-radius: 3vmin 10vmin 8vmin 10vmin;
+                                                        transform: rotate(0deg);
+                                                      }
+
+                                                      .earblackleft {
+                                                        position: absolute;
+                                                        top: 4vmin;
+                                                        left: 4vmin;
+                                                        width: 11vmin;
+                                                        height: 11vmin;
+                                                        background: black;
+                                                        border-radius: 2vmin 10vmin 8vmin 10vmin;
+                                                      }
+
+                                                      .hair {
+                                                        position: absolute;
+                                                        top: 39vmin;
+                                                        left: 20vmin;
+                                                        width: 4vmin;
+                                                        height: 4vmin;
+                                                        background: #282828;
+                                                        border-radius: 0vmin 4vmin 0vmin 0.5vmin;
+                                                        transform: rotate(45deg);
+                                                        box-shadow: 4vmin 4vmin #282828;
+                                                      }
+
+                                                      .hair2 {
+                                                        position: absolute;
+                                                        top: 50vmin;
+                                                        left: 20vmin;
+                                                        width: 4vmin;
+                                                        height: 4vmin;
+                                                        background: #282828;
+                                                        border-radius: 0vmin 4vmin 0vmin 0.5vmin;
+                                                        transform: rotate(45deg);
+                                                      }
+
+
+                                                      /* RIGHT EAR */ 
+
+                                                      .earright {
+                                                        position: absolute;
+                                                        top: 18.5vmin;
+                                                        right: 14.5vmin;
+                                                        width: 20vmin;
+                                                        height: 20vmin;
+                                                        background: #282828;
+                                                        border-radius: 10vmin 3vmin 10vmin 8vmin;
+                                                      }
+
+                                                      .earblackright {
+                                                        position: absolute;
+                                                        top: 4vmin;
+                                                        right: 4vmin;
+                                                        width: 11vmin;
+                                                        height: 11vmin;
+                                                        background: black;
+                                                        border-radius: 10vmin 2vmin 10vmin 8vmin;
+                                                      }
+
+                                                      .hair3 {
+                                                        position: absolute;
+                                                        top: 39vmin;
+                                                        right: 20vmin;
+                                                        width: 4vmin;
+                                                        height: 4vmin;
+                                                        background: #282828;
+                                                        border-radius: 0vmin .5vmin 0vmin 4vmin;
+                                                        transform: rotate(45deg);
+                                                        box-shadow: 4vmin 4vmin #282828;
+                                                      }
+
+                                                      .hair4 {
+                                                        position: absolute;
+                                                        top: 50vmin;
+                                                        right: 20vmin;
+                                                        width: 4vmin;
+                                                        height: 4vmin;
+                                                        background: #282828;
+                                                        border-radius: 0vmin .5vmin 0vmin 4vmin;
+                                                        transform: rotate(45deg);
+                                                      }
+  /* pets tong ends */
+
+
+
+
+  /* pets togther stars */
+  
+/* rabbit jumping starts */
+                                      .body-rabbit {
+                                        height:30vh;
+                                        width: 30vw;
+                                        overflow:hidden;
+                                        padding:0;
+                                        margin:0;
+                                        display: flex;
+                                        justify-content:center;
+                                        align-items:center;
+                                      
+                                      }
+
+                                      @keyframes leap  {
+                                        0% {transform:translate(75px,0)}
+                                        6.25% {transform:translate(50px,-15px)}
+                                        12.5% {transform:translate(25px,-20px)}
+                                        25% {transform:translate(-25px,-10px)}
+                                        37.5% {transform:translate(-75px,0)}
+                                        50% {transform:translate(-75px,0) rotateY(180deg)}
+                                        56.25% {transform:translate(-50px,-15px) rotateY(180deg)}
+                                        62.5% {transform:translate(-25px,-20px) rotateY(180deg)}
+                                        75% {transform:translate(25px,-10px) rotateY(180deg)}
+                                        87.5% {transform:translate(75px,0) rotateY(180deg)}
+                                        100% {transform:translate(75px,0)}
+                                      }
+
+                                      @keyframes leap_shadow  {
+                                        0% {transform:translate(75px,0) scale(1)}
+                                        6.25% {transform:translate(50px,0) scale(0.625)}
+                                        12.5% {transform:translate(25px,0) scale(0.5)}
+                                        25% {transform:translate(-25px,0) scale(0.75)}
+                                        37.5% {transform:translate(-75px,0) scale(1)}
+                                        50% {transform:translate(-75px,0) rotateY(180deg) scale(1)}
+                                        56.25% {transform:translate(-50px,0) rotateY(180deg) scale(0.625)}
+                                        62.5% {transform:translate(-25px,0) rotateY(180deg) scale(0.5)}
+                                        75% {transform:translate(25px,0) rotateY(180deg) scale(0.75)}
+                                        87.5% {transform:translate(75px,0) rotateY(180deg) scale(1)}
+                                        100% {transform:translate(75px,0) scale(1)}
+                                      }
+
+                                      .rabbit-rabbit{
+                                        font-size:60px;
+                                        animation: leap 3s infinite linear;
+                                        margin-top:-100px;
+                                      }
+
+                                      .shadow-rabbit{
+                                        width:75x;
+                                        height:30px;
+                                        background:rgb(84, 58, 20);
+                                        border-radius:50%;
+                                        animation: leap_shadow 3s infinite linear;
+                                      }
+
+
+/* rabbit jumping ends */
+
+
+  /* about us  */
+                                  .aboutdiv{
+                                  background-color: rgb(240, 187, 120);
+                                  }
+
+
+
+/* footer */
+/* General Footer Styles */
+footer {
+     
+  color: #f1f1f1;
+  padding: 40px 0;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.footer-section h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(84, 58, 20);
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.footer-section p {
+  line-height: 1.6;
+}
+
+.footer-section a {
+  color: #f1f1f1;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section a:hover {
+  color: #321010;
+  text-decoration: underline;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons li {
+  list-style: none;
+}
+
+.social-icons a {
+  color: #f1f1f1;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #0073e6;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 2px solid #0073e6;
+  border-radius: 5px;
+  background-color: #333;
+  color: #f1f1f1;
+}
+
+ 
+
+form button:hover {
+  background-color: #005bb5;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  text-align: center;
+  padding: 20px 0;
+  background-color: rgb(84, 58, 20);
+}
+
+.footer-bottom p {
+  font-size: 18px;
+  color: #f1f1f1;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+}
+/*  
+rgb(255, 240, 220)
+rgb(240, 187, 120)
+rgb(84, 58, 20)
+rgb(19, 16, 16) */
+
+/* footer */
+
+
+
+
+
+
+
+
+
+
+
+ 

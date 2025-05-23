@@ -1,0 +1,70 @@
+/* Sidebar styling */
+.sidebar {
+    width: 250px;
+    background-color: #543a14;
+    color: #f5f0e8;
+    height: 100vh;
+    position: fixed;
+    top: 0;  /* Fix to top of the page */
+    left: 0;  /* Fix to left side of the page */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2); /* Optional: add shadow for better separation */
+}
+
+/* Sidebar heading styling */
+.sidebar h2 {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #fff0dc;
+}
+
+/* Sidebar menu styling */
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    padding: 15px;
+    border-bottom: 1px solid #fff0dc;
+}
+
+.sidebar ul li a {
+    color: #f5f0e8;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+/* Sidebar link hover effect */
+.sidebar ul li a:hover {
+    border-radius: 6px;
+    background-color: rgb(230, 150, 47);
+}
+
+/* Icon styling in sidebar links */
+.sidebar ul li a i {
+    margin-right: 10px;
+}
+
+/* Push the main content to the right so it doesn't overlap the sidebar */
+body {
+    margin-left: 250px;  /* Ensures content is pushed to the right, accommodating the sidebar */
+    padding: 0;
+}
+
+.h2{
+    color: #fff0dc;
+}
+
+/* Sidebar Icons */
+.sidebar ul li a i {
+    margin-right: 10px;
+    color: white;  /* Set icon color to white */
+}
+
+.sidebar ul li a:hover i {
+    color: #f6cc8d;  /* Change icon color on hover */
+}
